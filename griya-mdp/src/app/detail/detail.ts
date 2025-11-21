@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { Housing } from '../lokasi-perumahan/housing.model';
-import { HOUSING_DATA } from '../data/housing-data';  // ← Import shared data
+import { Housing } from '../lokasi-perumahan/housing-model';
+import { HOUSING_DATA } from '../data/housing.data';  // ← Import shared data
 
 @Component({
   selector: 'app-detail',
